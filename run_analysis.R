@@ -1,5 +1,5 @@
-install.packages("dplyr")
-install.packages("utils")
+#install.packages("dplyr")
+#install.packages("utils")
 
 library(dplyr)
 library(utils)
@@ -26,11 +26,11 @@ improveDescription <- function(x = character) {
   improved <- sub(" GyroMag-", " gyroscope magnitude ", improved)
   improved <- sub(" Gyro-", " gyroscope ", improved)
   
-  improved <- sub(" std()", " [stddev]", improved, fixed = T)
-  improved <- sub(" mean()", " [mean]", improved, fixed = T)
-  improved <- sub("-X", " X-axis", improved)
-  improved <- sub("-Y", " Y-axis", improved)
-  improved <- sub("-Z", " Z-axis", improved)
+  improved <- sub(" std()", " stddev", improved, fixed = T)
+  improved <- sub(" mean()", " mean", improved, fixed = T)
+  improved <- sub("-X", " Xaxis", improved)
+  improved <- sub("-Y", " Yaxis", improved)
+  improved <- sub("-Z", " Zaxis", improved)
   
   improved <- gsub(" ", "_", improved)
   
