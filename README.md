@@ -27,9 +27,9 @@ summary <- read.table(file = "./TidyData.txt", header = T)
 
 ==================================================================
 
-The "dplyr" and "utils" libraries are used by the script; if not already installed, the following lines (the top lines of the script) should be uncommented before tunning the script:
+The "dplyr" and "utils" libraries are used by the script; if not already installed, the following lines (the top lines of the script) should be uncommented before running the script:
 
-#install.packages("dplyr")
+_#install.packages("dplyr")_
 #install.packages("utils")
 
 ==================================================================
