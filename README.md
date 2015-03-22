@@ -19,7 +19,7 @@ I chose to put the data inside a folder so that scripts and data are not mixed; 
 
 ==================================================================
 
-**The output file can be read with the command **
+**The output file can be read with the command**
 
 **summary <- read.table(file = "./TidyData.txt", header = T)**
 
