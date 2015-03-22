@@ -13,7 +13,9 @@ _activity_ | The activity type | one of (LAYING, SITTING, STANDING, WALKING, WAL
 
 The data column names are composed as:
 
-domain_acceleration component_pippo_sensor_jerk ?_magnitude ?_mean ?_stddev ?_XYZaxis ?
+domain + acceleration component + pippo_sensor + jerk ? + magnitude ? + mean ? + stddev ? + XYZaxis ?  (each component of the name is separated by "_")
+
+(e.g. "frequency_body_accelerator_Jerk_mean_Yaxis" means frequency domain, Jerk body acceleration, mean value, along Y axis)
 
 where
 
