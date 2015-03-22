@@ -19,9 +19,9 @@ I chose to put the data inside a folder so that scripts and data are not mixed; 
 
 ==================================================================
 
-The output file can be read with the command 
+**The output file can be read with the command **
 
-summary <- read.table(file = "./TidyData.txt", header = T)
+**summary <- read.table(file = "./TidyData.txt", header = T)**
 
 **The meaning of the data columns is detailed in the "CodeBook.md" file.**
 
@@ -30,6 +30,6 @@ summary <- read.table(file = "./TidyData.txt", header = T)
 The "dplyr" and "utils" libraries are used by the script; if not already installed, the following lines (the top lines of the script) should be uncommented before running the script:
 
 _#install.packages("dplyr")_
-#install.packages("utils")
+_#install.packages("utils")_
 
 ==================================================================
