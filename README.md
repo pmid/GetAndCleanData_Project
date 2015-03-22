@@ -30,6 +30,7 @@ I chose to put the data inside a folder so that scripts and data are not mixed; 
 The "dplyr" and "utils" libraries are used by the script; if not already installed, the following lines (the top lines of the script) should be uncommented before running the script:
 
 _#install.packages("dplyr")_
+
 _#install.packages("utils")_
 
 ==================================================================
