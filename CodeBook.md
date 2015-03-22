@@ -13,7 +13,7 @@ _activity_ | The activity type | one of (LAYING, SITTING, STANDING, WALKING, WAL
 
 The data column names are composed as:
 
-domain + acceleration component + pippo_sensor + jerk ? + magnitude ? + mean ? + stddev ? + XYZaxis ?  (each component of the name is separated by "_")
+domain + acceleration component + pippo_sensor + Jerk ? + magnitude ? + mean ? + stddev ? + XYZaxis ?  (each component of the name is separated by "_")
 
 (e.g. "frequency_body_accelerator_Jerk_mean_Yaxis" means frequency domain, Jerk body acceleration, mean value, along Y axis)
 
@@ -24,7 +24,7 @@ component | meaning
 domain | time or frequency(FFT)
 acceleration component | body (due to body motion) or gravity (due to gravitation)
 sensor | accelerator or gyroscope
-jerk ? | if "jerk" is present measurement is time rate of change of acceleration (acceleration of acceleration) otherwise it's simple acceleration
+Jerk ? | if "Jerk" is present measurement is time rate of change of acceleration (acceleration of acceleration) otherwise it's simple acceleration
 magnitude ? | if "magnitude" is magnitude of the three-dimensional signal
 mean ? if "mean" the value is the mean ot the measurements
 stddev ? if "stddev" the value is the standard deviation ot the measurements
