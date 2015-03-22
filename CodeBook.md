@@ -31,9 +31,14 @@ stddev ? if "stddev" the value is the standard deviation ot the measurements
 [XYZ]axis ? ? | if [XYZ]axis the measurement is along the specified axis
 
 
+The original units were: 
+
 Measurement type | measure unit
 ------------ | -------------
 accelerator | g
 accelerator, Jerk | g/s
 gyroscope | radians/sec
 gyroscope, Jerk | radians/(sec^2)
+frequency | Hz
+
+but the data has been normalized to the -1..+1 range, so it does not have units anymore
