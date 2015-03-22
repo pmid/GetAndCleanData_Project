@@ -8,7 +8,7 @@ This repository contains a script named "run_analysis.R", which reads and proces
 
 The data is related to a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing the smartphone. 
 
-Only mean and stedev values are considered.
+Only mean and stddev values are considered.
 
 The output is a summary file, grouped by volunteer and activity, giving the mean value of all the measurements.
 
